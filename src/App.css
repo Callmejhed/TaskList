@@ -1,0 +1,57 @@
+:root{
+    --lightBackground: #cbcbcb;
+    --darkBackground: #00030f;
+    --lightText: #00030f;
+    --darkText: #1976D2;
+}
+
+header{
+    transition: all .2s linear;
+}
+
+.header{
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightBackground);
+}
+
+.darkHeader{
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkBackground);
+    color: var(--darkText);
+}
+
+.lightToggle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.label{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.task{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .2s linear;
+    background-color: var(--lightBackground);
+}
+
+.darkTask{
+    background-color: var(--darkBackground);
+    color: var(--darkText);
+}
+
+.taskNotes{
+    font-weight: 350;
+    font-style: italic;
+}
