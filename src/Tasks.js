@@ -1,32 +1,15 @@
-import { useId } from "react";
-
 const Tasks = [
-    {   id : useId(),
+    {   id : "",
         taskTitle : "",
         taskDescription : "",
-        taskNotes : [
-            "",
-            "",
-            ""
-        ]
     },
-    {   id : useId(),
+    {   id : "",
         taskTitle : "",
         taskDescription : "",
-        taskNotes : [
-            "",
-            "",
-            ""
-        ]
     },
-    {   id : useId(),
+    {   id : "",
         taskTitle : "",
         taskDescription : "",
-        taskNotes : [
-            "",
-            "",
-            ""
-        ]
     }
 ]
 

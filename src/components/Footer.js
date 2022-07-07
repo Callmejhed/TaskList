@@ -1,12 +1,10 @@
 import {React} from "react";
-import Fab from "@mui/material/Fab";
-import AddIcon from '@mui/icons-material/Add'
 
 export default function Footer(){
 
     return(
-        <Fab color='primary' aria-label='add'>
-            <AddIcon />
-        </Fab>
+        <footer>
+            <small>This piece of trash was made by <a href="https://mui.com">Jhed🙂</a></small>
+        </footer>
     )
 }

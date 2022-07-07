@@ -7,6 +7,10 @@
 
 header{
     transition: all .2s linear;
+    /* position: fixed; */
+    top: 0px;
+    /* width: 90%; */
+    margin: 0 auto;
 }
 
 .header{
@@ -37,21 +41,17 @@ header{
     font-weight: 500;
 }
 
-.task{
-    padding: 1rem 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: all .2s linear;
-    background-color: var(--lightBackground);
-}
-
-.darkTask{
+footer{
+    position: absolute;
+    bottom: 0;
+    color: var(--lightBackground);
     background-color: var(--darkBackground);
-    color: var(--darkText);
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
 }
 
-.taskNotes{
-    font-weight: 350;
-    font-style: italic;
+footer a{
+    color: inherit;
+    text-decoration: none;
 }
