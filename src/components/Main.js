@@ -5,7 +5,7 @@ export default function Main(props){
 
 
     return(
-        <main>
+        <main onClick={props.onClick}>
             <List>
                {props.taskList} 
             </List> 
